@@ -113,6 +113,7 @@ resource "aws_instance" "Instancia_1" {
   subnet_id     = aws_subnet.subnet_publica_3.id
 
   vpc_security_group_ids = [aws_security_group.web_sg.id]
+  key_name = "vockey"
 
   associate_public_ip_address = true
 
@@ -128,6 +129,7 @@ resource "aws_instance" "Instancia_2" {
   subnet_id     = aws_subnet.subnet_publica_3.id
 
   vpc_security_group_ids = [aws_security_group.web_sg.id]
+  key_name = "vockey"
 
   associate_public_ip_address = true
 
@@ -143,6 +145,7 @@ resource "aws_instance" "Instancia_3" {
   subnet_id     = aws_subnet.subnet_publica_3.id
 
   vpc_security_group_ids = [aws_security_group.web_sg.id]
+  key_name = "vockey"
 
   associate_public_ip_address = true
 
@@ -158,6 +161,7 @@ resource "aws_instance" "Instancia_4" {
   subnet_id     = aws_subnet.subnet_publica_3.id
 
   vpc_security_group_ids = [aws_security_group.web_sg.id]
+  key_name = "vockey"
 
   associate_public_ip_address = true
 
@@ -174,6 +178,7 @@ resource "aws_instance" "Instancia_jumpserver" {
   subnet_id     = aws_subnet.subnet_publica_3.id
 
   vpc_security_group_ids = [aws_security_group.jump_sg.id]
+  key_name = "vockey"
 
   associate_public_ip_address = true
 
