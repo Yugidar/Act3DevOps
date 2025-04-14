@@ -184,27 +184,27 @@ resource "aws_instance" "Instancia_jumpserver" {
 
 
 #Outputs
-output "public_ip" {
+output "Ip_publica1" {
   description = "ip publica de linux"
   value = aws_instance.Instancia_1.public_ip
 }
 
-output "public_ip" {
+output "Ip_publica2" {
   description = "ip publica de linux"
   value = aws_instance.Instancia_2.public_ip
 }
 
-output "public_ip" {
+output "Ip_publica3" {
   description = "ip publica de linux"
   value = aws_instance.Instancia_3.public_ip
 }
 
-output "public_ip" {
+output "Ip_publica4" {
   description = "ip publica de linux"
   value = aws_instance.Instancia_4.public_ip
 }
 
-output "public_ip" {
+output "Ip_publicaJS" {
   description = "ip publica de linux"
   value = aws_instance.Instancia_jumpserver.public_ip
 }
